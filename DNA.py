@@ -1,4 +1,7 @@
 #!/usr/bin/python3
 s = open('rosalind_dna.txt','r').read()
-print(s.count("A"), s.count("C"), s.count("G"), s.count("T"))
-#add a comment
+a = s.count("A")
+c = s.count("C")
+g = s.count("G")
+t = s.count("T")
+print(a, c, g, t)
